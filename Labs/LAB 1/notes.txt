@@ -1,3 +1,0 @@
-plot en fonction du temps pour digits => transformer en image 
-
-Mettre nb de clusters dans gmm cov 
