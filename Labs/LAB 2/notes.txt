@@ -1,0 +1,25 @@
+Xall => (n,d) = (3327, 64)
+Yall => (n,d) = (3327, 1) containing values to predict.
+
+
+alert alert-success : This alert box indicates a successful or positive action. (Green box)
+alert alert-info: This alert box indicates a neutral informative change or action. (Blue Box)
+alert alert-warning: This alert box indicates a warning that might need attention. (Yellow Box) 
+alert alert-danger: This alert box indicates a dangerous or potentially negative action. (Red Box)
+
+
+W = [[] for i in range(5)]
+for i_lambda_value in range(len(lambda_values)):
+    clf_test = Ridge(alpha=lambda_values[i_lambda_value]).fit(x_train, y_train)
+    for i in range(5):
+        W[i][i_lambda_value].append(0)
+
+
+
+El modele devient moins bon plus on évolue dans le temps, le cerveau évolue, 
+
+
+CCL on aurait pu utiliser que 14 electrodes 
+Idées si on baisse le 14 pour lasso et qu'on réduit les electrodes, combien on perd en MSE, pour un être humain moins sn met d'electrodes plus il est content . Certains capteurs sont proches et corrélés
+
+Random forest doit overfit d'apres le prof
