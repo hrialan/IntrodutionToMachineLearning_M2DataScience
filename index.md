@@ -1,4 +1,6 @@
-## Introduction to Machine Learning - M2 Data Science 
+# Introduction to Machine Learning - M2 Data Science 
+
+## LABs:
 
 - [LAB 1](https://hugorialan.github.io/Introdution_to_Machine_Learning_M2DataScience/Labs/LAB 1/LAB_1.html)
 - [LAB 2](https://hugorialan.github.io/Introdution_to_Machine_Learning_M2DataScience/Labs/LAB 2/LAB_2.html)
